@@ -1,0 +1,59 @@
+extends layout
+ 
+block content
+ 
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark.mb-4
+    a.navbar-brand(href='#') Examen Primer Parcial
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarCollapse.collapse.navbar-collapse
+    div(align='center')
+      ul.navbar-nav.mr-auto
+        li.nav-item
+          a.nav-link(href='/') Inicio
+        li.nav-item.active
+          a.nav-link(href='nosotros')
+            | Acerca de nosotros 
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='servicios') Servicios
+        li.nav-item
+          a.nav-link(href='contacto') Contactanos
+      form.form-inline.mt-2.mt-md-0
+
+  main.container(role='main')
+    .jumbotron
+      h1 Erickson Martinez 
+      p.lead
+        | Mis pasatiempos favoritos
+    .container
+    
+    .row
+      .col-md-4
+        h2 VIDEOS JUEGOS
+        p
+          | Honduras, oficialmente República de Honduras, es un país de América Central. Su capital es Distrito Central.
+          a(href='https://www.facebook.com/erickson.martinezpadilla1' target='_blank')
+           img.card-img-top.img-fluid(src='/images/VideosJ.jpg' alt='creacion de logotipo')
+ 
+      .col-md-4
+        h2 SERIES Y PELICULAS
+        p
+          |Honduras, oficialmente República de Honduras, es un país de América Central. Su capital es Distrito Central.
+          a(href='https://www.facebook.com/erickson.martinezpadilla1' target='_blank')
+           img.card-img-top.img-fluid(src='/images/Neflix.png' alt='creacion de logotipo')
+ 
+      .col-md-4
+        h2 LIGAS EUROPEAS
+        p
+          | Honduras, oficialmente República de Honduras, es un país de América Central. Su capital es Distrito Central.
+          a(href='https://www.facebook.com/erickson.martinezpadilla1' target='_blank')
+           img.card-img-top.img-fluid(src='/images/champions.jpg' alt='creacion de logotipo')
+ 
+    hr
+ 
+  footer
+  .container
+    div(align='center')
+      | Desarrollado por 
+      a(href='https://www.facebook.com/erickson.martinezpadilla1' target='_blank') Erickson Martinez
